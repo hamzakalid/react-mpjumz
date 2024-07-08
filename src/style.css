@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.logs {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Courier New', Courier, monospace; /* Console-like font */
+}
+
+.log-entry {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.log-entry .timestamp {
+  color: #888;
+  margin-right: 10px;
+}
+
+.log-entry .level {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.log-entry.info .level {
+  color: #17a2b8; /* Bootstrap info color */
+}
+
+.log-entry.warning .level {
+  color: #ffc107; /* Bootstrap warning color */
+}
+
+.log-entry.error .level {
+  color: #dc3545; /* Bootstrap danger color */
+}
+
+.log-entry .message {
+  color: #000;
+}
